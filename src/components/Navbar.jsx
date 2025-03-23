@@ -59,6 +59,18 @@ const Navbar = () => {
           >
             Leaderboard
           </Link>
+          <Link
+            to="/add"
+            className="text-gray-300 hover:text-white duration-300"
+          >
+            Lisää kilometrit
+          </Link>
+          <Link
+            to="/my"
+            className="text-gray-300 hover:text-white duration-300"
+          >
+            Omat merkinnät
+          </Link>
         </div>
 
         <div className="flex gap-4">
