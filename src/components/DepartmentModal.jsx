@@ -27,7 +27,7 @@ const DepartmentModal = ({ clerkId, onDepartmentSaved }) => {
         <select
           value={department}
           onChange={(e) => setDepartment(e.target.value)}
-          className="w-full p-2 border rounded-md mb-4"
+          className="w-full p-3 border rounded-md mb-4"
         >
           <option value="">-- Valitse osasto --</option>
           <option value="Huolto">Huolto</option>
